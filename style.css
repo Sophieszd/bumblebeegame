@@ -1,0 +1,64 @@
+* {
+    font-family: 'Numans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 25px;
+    text-align:  center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    width: 100%;
+}
+
+div {
+    background-color: #53C65D;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    background-color: #6088C9;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.bees {
+    display: flex;
+    justify-content: space-evenly;
+    height: 160px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.beeimage {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 40px;
+}
